@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+ 
+h1 {
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	display: inline-block;
+	position: absolute;
+	right: 0px;	
+	background-color: red;
+	border: 1px solid black	;
+	width: 150px;
+	text-align: center;
+
+}
+.container {
+	background-color: #ebebeb;
+    border: 1px solid black;
+    position: relative;
+    min-height: 200px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#chicken {
+	background-color: orange;
+}
+
+#beef {
+	background-color: green;
+}
+
+#sushi {
+	background-color: blue;
+}
+p {
+	padding: 40px 15px 30px 15px;
+}
+
+/***Responsive Framework***/
+.row {
+	width: 100%;
+}
+
+/*******Large Device ************/
+@media(min-width: 992px) {
+	.l-col-1, .l-col-2, .l-col-3, .l-col-4, .l-col-5, .l-col-6,
+	.l-col-7, .l-col-8, .l-col-9, .l-col-10, .l-col-11, .l-col-12
+			{
+				float: left;
+			}
+			
+			.l-col-1 {
+				width: 8.33%;
+			}
+			
+			.l-col-2 {
+				width: 16.66%;
+			}
+			
+			.l-col-3 {
+				width: 25%;
+			}
+
+			.l-col-4 {
+				width: 33.33%;
+			}
+
+			.l-col-5 {
+				width: 41.66%;
+			}
+			
+			.l-col-6 {
+				width: 50%;
+			}
+
+			.l-col-7 {
+				width: 58.33%;
+			}
+			
+			.l-col-8 {
+				width: 66.66%;
+			}
+
+			.l-col-9 {
+				width: 74.99%;
+			}
+			
+			.l-col-10 {
+				width: 83.33%;
+			}
+
+			.l-col-11 {
+				width: 91.66%;
+			}
+			
+			.l-col-12 {
+				width: 100%;
+			}
+}
+
+/********** Medium Devices ***************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.m-col-1, .m-col-2, .m-col-3, .m-col-4, .m-col-5, .m-col-6,
+	.m-col-7, .m-col-8, .m-col-9, .m-col-10, .m-col-11, .m-col-12
+			{
+				float: left;
+			}
+			
+			.m-col-1 {
+				width: 8.33%;
+			}
+			
+			.m-col-2 {
+				width: 16.66%;
+			}
+			
+			.m-col-3 {
+				width: 25%;
+			}
+
+			.m-col-4 {
+				width: 33.33%;
+			}
+
+			.m-col-5 {
+				width: 41.66%;
+			}
+			
+			.m-col-6 {
+				width: 50%;
+			}
+
+			.m-col-7 {
+				width: 58.33%;
+			}
+			
+			.m-col-8 {
+				width: 66.66%;
+			}
+
+			.m-col-9 {
+				width: 74.99%;
+			}
+			
+			.m-col-10 {
+				width: 83.33%;
+			}
+
+			.m-col-11 {
+				width: 91.66%;
+			}
+			
+			.m-col-12 {
+				width: 100%;
+			}
+}
+
+/************ Small Device *****************/
+@media (min-width: 10px) and (max-width: 767px) {
+	.s-col-1, .s-col-2, .s-col-3, .s-col-4, .s-col-5, .s-col-6,
+	.s-col-7, .s-col-8, .s-col-9, .s-col-10, .s-col-11, .s-col-12
+			{
+				float: left;
+			}
+			
+			.s-col-1 {
+				width: 8.33%;
+			}
+			
+			.s-col-2 {
+				width: 16.66%;
+			}
+			
+			.s-col-3 {
+				width: 25%;
+			}
+
+			.s-col-4 {
+				width: 33.33%;
+			}
+
+			.s-col-5 {
+				width: 41.66%;
+			}
+			
+			.s-col-6 {
+				width: 50%;
+			}
+
+			.s-col-7 {
+				width: 58.33%;
+			}
+			
+			.s-col-8 {
+				width: 66.66%;
+			}
+
+			.s-col-9 {
+				width: 74.99%;
+			}
+			
+			.s-col-10 {
+				width: 83.33%;
+			}
+
+			.s-col-11 {
+				width: 91.66%;
+			}
+			
+			.s-col-12 {
+				width: 100%;
+			}
+}
